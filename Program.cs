@@ -4,8 +4,10 @@ partial class Program
 {
     static void Main(string[] args)
     {
-        CriarArquivo();
-        
+        EscritaBinaria();  
+        LeituraBinaria();
+
+        Console.WriteLine("Aplicação finalizada. . .");
     }
 
 }
